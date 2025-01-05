@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url('./TTLakesCondensed-Medium.woff2') format('woff2'), /* Современный формат */
+         url('./TTLakesCondensed-Medium.woff') format('woff'),
+         url('./TTLakesCondensed-Medium.ttf') format('truetype'),
+         url('./TTLakesCondensed-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url('./TTLakesCondensed-DemiBold.woff2') format('woff2'), /* Современный формат */
+         url('./TTLakesCondensed-DemiBold.woff') format('woff'),
+         url('./TTLakesCondensed-DemiBold.ttf') format('truetype'),
+         url('./TTLakesCondensed-DemiBold.eot?#iefix') format('embedded-opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url('./TTLakesCompressed-Regular.woff2') format('woff2'), /* Современный формат */
+         url('./TTLakesCompressed-Regular.woff') format('woff'),
+         url('./TTLakesCompressed-Regular.ttf') format('truetype'),
+         url('./TTLakesCompressed-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

@@ -35,8 +35,8 @@
     
                 <footer class="menu__footer footer">
                     <div class="footer__btn-row">
-                        <button class="footer__btn-item"><img src="./img/icon/phone.svg" alt="phone"></button>
-                        <button class="footer__btn-item"><img src="./img/icon/message.svg" alt="message"></button>
+                        <button data-phone class="footer__btn-item"><img src="./img/icon/phone.svg" alt="phone"></button>
+                        <button data-message class="footer__btn-item"><img src="./img/icon/message.svg" alt="message"></button>
                         <button class="footer__btn-item"><img src="./img/icon/men.svg" alt="men"></button>
                     </div>
                     <div class="footer__mail"><span>mail@cps.com</span></div>
@@ -84,8 +84,8 @@
         
         
                             <div class="header__btns-row">
-                                <button class="header__button" type="button"><img src="./img/icon/phone.svg" alt="оставить заявку"></button>
-                                <button class="header__button" type="button"><img src="./img/icon/message.svg" alt="оставить заявку"></button>
+                                <button data-phone class="header__button" type="button"><img src="./img/icon/phone.svg" alt="оставить заявку"></button>
+                                <button data-message class="header__button" type="button"><img src="./img/icon/message.svg" alt="оставить заявку"></button>
                                 <button class="header__button" type="button"><img src="./img/icon/men.svg" alt="оставить заявку"></button>
         
                                 <div class="header__line"></div>
@@ -586,10 +586,41 @@
                     <div class="footer-item">Информация, размещенная на данной странице, не является публичной офертой </div>
                 </div>
             </footer>
-
-
-
         </div>
+
+        <div class="modal-feedback">
+            <div class="modal-feedback__wrapper">
+                <span class="modal-feedback__close-trigger"></span>
+
+                <h2 class="modal-feedback__title">Обратная связь</h2>
+                <form class="modal-feedback__form">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                    <input type="text" placeholder="Электронная почта">
+                    <textarea class="modal-feedback__text-area" name="" id=""></textarea>
+                    <a href="#">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span>  и соглашаетесь с нашей <span>политикой конфиденциальности</span> </a>
+                    <button class="modal-feedback__button" type="submit">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </div>
+        <div class="modal-call">
+            <div class="modal-call__wrapper">
+                <span class="modal-call__close-trigger"></span>
+
+                <h2 class="modal-call__title">Обратная связь</h2>
+                <form class="modal-call__form">
+
+                    <input type="text" placeholder="Телефон">
+
+
+                    <a href="#">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span>  и соглашаетесь с нашей <span>политикой конфиденциальности</span> </a>
+                    <button class="modal-call__button" type="submit">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </div>
+
+
+
     </div>
 
 
